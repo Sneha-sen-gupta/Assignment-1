@@ -1,7 +1,5 @@
-/* ===============================
-   GLOBAL RESET & BODY
-================================ */
-* {
+
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,13 +7,11 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #ffffff;   /* Page background */
-  color: #111111;              /* Main text color */
+  background-color: #ffffff;   
+  color: #111111;              
   line-height: 1.6;
 }
-/* ===============================
-   HEADER / NAVBAR
-================================ */
+
 
 header {
     padding: 20px 60px;
@@ -56,9 +52,6 @@ nav button {
 }
 
 
-/* ===============================
-   HERO SECTION
-================================ */
 .hero {
     position: relative;
     min-height: 90vh;
@@ -151,12 +144,8 @@ p {
     height: 18px;
 }
 
-/* ===============================
-   PROBLEM SECTION
-================================ */
-/* ===============================
-   PROBLEM SECTION
-================================ */
+
+
 .problems {
     padding: 80px 20px;
     background-color: #f9f9f9;
@@ -197,13 +186,13 @@ p {
 }
 
 .problem img {
-    width: 60px;           /* bigger size so it's more visible */
+    width: 60px;          
     height: 60px;
     margin-bottom: 24px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    object-fit: contain;  /* important for icons */
+    object-fit: contain;  
     background: rgba(249, 85, 85, 1);
 }
 
@@ -219,9 +208,7 @@ p {
     line-height: 1.5;
 }
 
-/* ===============================
-   SOLUTION SECTION
-================================ */
+
 
 .solution {
     padding: 100px 20px;
@@ -292,18 +279,13 @@ p {
 }
 
 
-/* ===============================
-   CALL TO ACTION (CTA)
-================================ */
-/* ===============================
-   CALL TO ACTION (CTA) - Simple
-================================ */
+
 .cta {
     padding: 80px 20px;
     text-align: center;
-    background-color: #f8f8f5;    /* soft off-white */
-    color: #001931;               /* dark text */
-    border-radius: 16px;          /* rounded corners like in picture */
+    background-color: #f8f8f5;    
+    color: #001931;               
+    border-radius: 16px;          
     margin: 40px auto;
     max-width: 800px;
 }
@@ -347,9 +329,7 @@ p {
 
 
 
-/* ===============================
-   FOOTER
-================================ */
+
 footer {
     background-color:#0b1a2a ;
     color: white;
